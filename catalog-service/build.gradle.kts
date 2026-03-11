@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
 	implementation(libs.spring.boot.starter)
-	implementation(libs.spring.boot.starter.data.jpa)
+	implementation(libs.bundles.data)
 	testImplementation(libs.spring.boot.starter.test)
 	testRuntimeOnly(libs.junit.platform.launcher)
 }
